@@ -1,0 +1,15 @@
+{
+  "name": "popzy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "popzy.js",
+  "scripts": {
+    "minify": "terser popzy.js -o popzy.min.js && csso popzy.css -o popzy.min.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csso-cli": "^4.0.2",
+    "terser": "^5.37.0"
+  }
+}
